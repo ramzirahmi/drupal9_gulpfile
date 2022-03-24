@@ -1,0 +1,20 @@
+name: " Formation Drupal9 "
+description: " Theme drupal9"
+type: theme
+core: 8.x
+core_version_requirement: ^8 || ^9
+base theme: false
+libraries:
+    - formation_drupal9/global-css
+    - formation_drupal9/global-js
+
+regions:
+  system_branding: 'System Branding'
+  main_menu: 'Main Menu'
+  status_message: 'Status Message'
+  content_top: 'Content top'
+  content: 'Content'
+  content_bottom: 'Content bottom'
+  footer: 'Footer'
+  footer_copyright: 'Footer Copyright'
+  disabled 	: 'Disabled'

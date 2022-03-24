@@ -1,0 +1,28 @@
+(function ($, Drupal) {
+    'use strict';
+    /* menu category class is-active */
+    if ($('body').hasClass('category-1')) {
+        $(".menu-category--produit .icon1").addClass('is-active');
+    } else {
+        $(".menu-category--produit .icon1").removeClass('is-active');
+    }
+
+    if ($('body').hasClass('category-3')) {
+        $(".menu-category--produit .icon2").addClass('is-active');
+    } else {
+        $(".menu-category--produit .icon2").removeClass('is-active');
+    }
+
+    if ($('body').hasClass('category-2')) {
+        $(".menu-category--produit .icon3").addClass('is-active');
+    } else {
+        $(".menu-category--produit .icon3").removeClass('is-active');
+    }
+
+    if ($('body').hasClass('category-4')) {
+        $(".menu-category--produit .icon4").addClass('is-active');
+    } else {
+        $(".menu-category--produit .icon4").removeClass('is-active');
+    }
+
+})(jQuery, Drupal);

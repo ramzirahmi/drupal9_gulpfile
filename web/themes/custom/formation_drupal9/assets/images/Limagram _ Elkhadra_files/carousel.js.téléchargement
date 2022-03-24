@@ -1,0 +1,80 @@
+(function ($, Drupal) {
+$(".owl-carousel-partenaires").owlCarousel({
+    loop: true,
+    margin: 60,
+    nav: true,
+    dots: false,
+    responsiveClass: true,
+    stagePadding: 30,
+    autoplay:false,
+    responsive: {
+      0:{
+        items:2,
+        autoplay:true,
+      },
+      400: {
+        items: 2,
+        autoplay:true,
+      },
+      600: {
+        items: 4,
+      },
+      1000: {
+        items: 6,
+      },
+    },
+  });
+
+  $('#culture-carousel').owlCarousel({
+      loop:false,
+      margin:0,
+      nav:true,
+      dots: false,
+      navText: [
+        '<i class="ri-arrow-right-s-fill"></i>',
+        '<i class="ri-arrow-left-s-fill"></i>',
+      ],
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:3
+          },
+          1000:{
+              items:4
+          }
+      }
+  })
+  var items=$( "#culture-carousel .item-link" );
+  var l=items.length
+  if($( window ).width()>991){
+      if(l <= 5){
+        $('#culture-carousel').owlCarousel('destroy');
+        $('#culture-carousel').owlCarousel({
+            loop:false,
+            margin:0,
+            nav:true,
+            dots: false,
+            touchDrag: false,
+            mouseDrag: false,
+            navText: [
+              '<i class="ri-arrow-right-s-fill"></i>',
+              '<i class="ri-arrow-left-s-fill"></i>',
+            ],
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        })
+      }
+  }
+  
+})(jQuery, Drupal);

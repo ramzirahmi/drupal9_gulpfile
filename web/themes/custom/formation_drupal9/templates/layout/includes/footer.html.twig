@@ -1,0 +1,14 @@
+{% if page.footer or page.footer_copyright %}
+    <footer class="bg-footer">
+        <div class="container">
+            <div class="row justify-content-center">
+                {% if page.footer %}
+                    {{ page.footer }}
+                {% endif %}
+                {% if page.footer_copyright %}
+                    {{ page.footer_copyright }}
+                {% endif %}
+            </div>
+        </div>
+    </footer>
+{% endif %}
