@@ -1,0 +1,22 @@
+uuid: b64bcc2b-9822-4dbe-9b33-5aa42aa0385e
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - formation_drupal9
+_core:
+  default_config_hash: y0bXRvKYQQKkf_RVxA3aOPGpIfKKsDOzzrWYCgjxJ9Y
+id: formation_drupal9_breadcrumbs
+theme: formation_drupal9
+region: system_branding
+weight: 0
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: 'Fils d''ariane'
+  label_display: '0'
+  provider: system
+visibility: {  }

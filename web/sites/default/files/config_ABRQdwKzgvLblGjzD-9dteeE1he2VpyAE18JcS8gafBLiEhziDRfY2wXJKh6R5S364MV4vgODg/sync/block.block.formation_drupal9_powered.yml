@@ -1,0 +1,22 @@
+uuid: 1ae12e3e-ecae-4624-8dd8-44577629eb90
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - formation_drupal9
+_core:
+  default_config_hash: I6Esh8cDlPdl2POZg4MOSRUrQNYA1UNCJCxL2yqT_wc
+id: formation_drupal9_powered
+theme: formation_drupal9
+region: system_branding
+weight: 10
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Propulsé par Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

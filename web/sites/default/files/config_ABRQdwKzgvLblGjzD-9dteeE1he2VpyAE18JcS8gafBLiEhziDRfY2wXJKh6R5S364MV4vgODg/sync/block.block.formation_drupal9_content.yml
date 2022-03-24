@@ -1,0 +1,22 @@
+uuid: c178e117-f573-4704-81ee-9c7c16e16599
+langcode: fr
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - formation_drupal9
+_core:
+  default_config_hash: kigu8pTxXt1qGR2NJ5HHdC4G2G1wsDrIjLPKBT5wUBc
+id: formation_drupal9_content
+theme: formation_drupal9
+region: content
+weight: 0
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Contenu de la page principale'
+  label_display: '0'
+  provider: system
+visibility: {  }

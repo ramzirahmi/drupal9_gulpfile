@@ -1,0 +1,20 @@
+uuid: db84e1d8-ca64-4233-80a2-d247224ce46d
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - formation_drupal9
+_core:
+  default_config_hash: XRdb8LpbArVA6CpuuEZxzi50JIdjsJaCCZ5o3fH0Blk
+id: formation_drupal9_local_actions
+theme: formation_drupal9
+region: content
+weight: -20
+provider: null
+plugin: local_actions_block
+settings:
+  id: local_actions_block
+  label: 'Actions d''administration principales'
+  label_display: '0'
+  provider: core
+visibility: {  }

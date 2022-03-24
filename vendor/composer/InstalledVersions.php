@@ -25,12 +25,12 @@ class InstalledVersions
 private static $installed = array (
   'root' => 
   array (
-    'pretty_version' => '1.0.0+no-version-set',
-    'version' => '1.0.0.0',
+    'pretty_version' => 'dev-master',
+    'version' => 'dev-master',
     'aliases' => 
     array (
     ),
-    'reference' => NULL,
+    'reference' => '9dc0f3a6f70ee586e2658297771e52e26f6e8fa8',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -858,12 +858,12 @@ private static $installed = array (
     ),
     'drupal/recommended-project' => 
     array (
-      'pretty_version' => '1.0.0+no-version-set',
-      'version' => '1.0.0.0',
+      'pretty_version' => 'dev-master',
+      'version' => 'dev-master',
       'aliases' => 
       array (
       ),
-      'reference' => NULL,
+      'reference' => '9dc0f3a6f70ee586e2658297771e52e26f6e8fa8',
     ),
     'drupal/responsive_image' => 
     array (

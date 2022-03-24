@@ -1,0 +1,25 @@
+uuid: 8af0d509-c110-4f33-946f-45a3368dfbec
+langcode: fr
+status: true
+dependencies:
+  config:
+    - system.menu.informations
+  module:
+    - system
+  theme:
+    - formation_drupal9
+id: informations
+theme: formation_drupal9
+region: footer
+weight: 0
+provider: null
+plugin: 'system_menu_block:informations'
+settings:
+  id: 'system_menu_block:informations'
+  label: Informations
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

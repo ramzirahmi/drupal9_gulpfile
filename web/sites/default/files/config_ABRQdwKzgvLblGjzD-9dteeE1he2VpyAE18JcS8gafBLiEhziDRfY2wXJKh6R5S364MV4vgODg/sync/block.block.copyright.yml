@@ -1,0 +1,25 @@
+uuid: 744d0048-c493-4b2a-a63e-4c11eb353cef
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:basic:48651e4e-dd3e-43a2-a399-215679c01769'
+  module:
+    - block_content
+  theme:
+    - formation_drupal9
+id: copyright
+theme: formation_drupal9
+region: footer_copyright
+weight: -7
+provider: null
+plugin: 'block_content:48651e4e-dd3e-43a2-a399-215679c01769'
+settings:
+  id: 'block_content:48651e4e-dd3e-43a2-a399-215679c01769'
+  label: copyright
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

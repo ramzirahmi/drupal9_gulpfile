@@ -1,0 +1,22 @@
+uuid: 85404446-3e2a-41f7-ae48-4c213b674a08
+langcode: fr
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - formation_drupal9
+_core:
+  default_config_hash: KC12e0aosUnBBs5bd374JVcQjJaFNOSIHzu0dUGf22o
+id: formation_drupal9_messages
+theme: formation_drupal9
+region: system_branding
+weight: 0
+provider: null
+plugin: system_messages_block
+settings:
+  id: system_messages_block
+  label: 'Messages de statut'
+  label_display: '0'
+  provider: system
+visibility: {  }

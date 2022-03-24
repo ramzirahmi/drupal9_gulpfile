@@ -1,0 +1,8 @@
+uuid: 64ffb210-cd5a-4f32-a630-42ef4c9eb60d
+langcode: fr
+status: true
+dependencies: {  }
+id: informations
+label: Informations
+description: ''
+locked: false

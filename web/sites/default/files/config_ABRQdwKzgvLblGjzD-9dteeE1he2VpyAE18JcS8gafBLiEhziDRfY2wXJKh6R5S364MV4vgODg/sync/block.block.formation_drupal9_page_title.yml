@@ -1,0 +1,20 @@
+uuid: 40f418c0-f8cd-4ac6-b030-54b4db6158f4
+langcode: fr
+status: true
+dependencies:
+  theme:
+    - formation_drupal9
+_core:
+  default_config_hash: ItFhhiUOoeR7oIq73ZaCV7PAYrOwXZ-9fazMzF5DJXM
+id: formation_drupal9_page_title
+theme: formation_drupal9
+region: content
+weight: -50
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Titre de page'
+  label_display: '0'
+  provider: core
+visibility: {  }

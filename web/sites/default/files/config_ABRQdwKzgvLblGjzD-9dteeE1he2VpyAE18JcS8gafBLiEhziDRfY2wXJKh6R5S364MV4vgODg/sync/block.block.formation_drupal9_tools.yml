@@ -1,0 +1,27 @@
+uuid: a2b37ed4-69ee-4f25-add8-630c36d2758d
+langcode: fr
+status: false
+dependencies:
+  config:
+    - system.menu.tools
+  module:
+    - system
+  theme:
+    - formation_drupal9
+_core:
+  default_config_hash: TszJ7dH_11Qjmo_OpMzqznaED4Bvy1XfVnBzTC9LZXE
+id: formation_drupal9_tools
+theme: formation_drupal9
+region: system_branding
+weight: 0
+provider: null
+plugin: 'system_menu_block:tools'
+settings:
+  id: 'system_menu_block:tools'
+  label: Outils
+  label_display: visible
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }

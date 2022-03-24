@@ -1,0 +1,27 @@
+uuid: ec69d41e-b3d2-4a83-a827-f7cfc1c2495a
+langcode: fr
+status: false
+dependencies:
+  config:
+    - system.menu.footer
+  module:
+    - system
+  theme:
+    - formation_drupal9
+_core:
+  default_config_hash: pnCK21YFjH7iB4XDeokSq3N3XSr6qX8BsqMs9nmip6E
+id: formation_drupal9_footer
+theme: formation_drupal9
+region: system_branding
+weight: 0
+provider: null
+plugin: 'system_menu_block:footer'
+settings:
+  id: 'system_menu_block:footer'
+  label: 'Menu Pied de page'
+  label_display: '0'
+  provider: system
+  level: 1
+  depth: 0
+  expand_all_items: false
+visibility: {  }
