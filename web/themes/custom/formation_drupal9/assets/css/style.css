@@ -11120,6 +11120,9 @@ textarea.form-control-lg {
 }
 .bg-footer {
   background-image: url("../images/bg-footer-min.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
   width: 100%;
   height: auto;
   position: fixed;
@@ -11127,10 +11130,14 @@ textarea.form-control-lg {
   bottom: 0;
 }
 .bg-footer .footer-top {
-  margin-top: -125px;
+  margin-top: -80px;
 }
 .bg-footer .footer-top .logo-footer {
-  background-color: #F2FAF7 !important;
+  background-color: #EFF2F1 !important;
+  text-align: center;
+  padding: 20px;
+  border-radius: 15px;
+  z-index: 99;
 }
 .bg-footer .footer-content {
   padding: 20px;

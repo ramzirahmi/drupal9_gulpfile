@@ -1,0 +1,23 @@
+uuid: c5e0c24f-aee2-4349-bb22-65467c8ff186
+langcode: fr
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.partenaire.field_logo_partenaire
+    - node.type.partenaire
+  module:
+    - user
+id: node.partenaire.teaser
+targetEntityType: node
+bundle: partenaire
+mode: teaser
+content:
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_logo_partenaire: true
+  langcode: true

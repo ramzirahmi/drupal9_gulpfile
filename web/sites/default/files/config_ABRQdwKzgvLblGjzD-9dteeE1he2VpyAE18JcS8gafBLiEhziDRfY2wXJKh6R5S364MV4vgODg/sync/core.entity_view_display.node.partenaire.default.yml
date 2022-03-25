@@ -1,0 +1,31 @@
+uuid: 6236cf71-33b3-41a7-be31-1fb46345fc73
+langcode: fr
+status: true
+dependencies:
+  config:
+    - field.field.node.partenaire.field_logo_partenaire
+    - node.type.partenaire
+  module:
+    - image
+    - user
+id: node.partenaire.default
+targetEntityType: node
+bundle: partenaire
+mode: default
+content:
+  field_logo_partenaire:
+    type: image
+    label: above
+    settings:
+      image_link: ''
+      image_style: ''
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

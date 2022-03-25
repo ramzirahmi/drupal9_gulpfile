@@ -1,14 +1,21 @@
 .bg-footer {
   background-image: url("../images/bg-footer-min.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position:center;
   width: 100%;
   height: auto;
   position: fixed;
   left: 0;
   bottom: 0;
   .footer-top {
-     margin-top:-125px;
-     .logo-footer {
-      background-color: #F2FAF7 !important;
+    margin-top: -80px;
+    .logo-footer {
+      background-color: #EFF2F1 !important;
+      text-align: center;
+      padding: 20px;
+      border-radius: 15px;
+      z-index: 99;
     }
   }
   .footer-content {
@@ -37,12 +44,12 @@
       list-style: none;
       padding-left: 0px;
       li {
-           padding: 10px 0;
-           display: block;
+        padding: 10px 0;
+        display: block;
 
-        a{
-           text-decoration: none;
-          color:#000;
+        a {
+          text-decoration: none;
+          color: #000;
         }
       }
     }
