@@ -15,6 +15,7 @@ regions:
   content_top: 'Content top'
   content: 'Content'
   content_bottom: 'Content bottom'
-  footer: 'Footer'
+  footer_top: 'Footer Top'
+  footer_content: 'Footer Content'
   footer_copyright: 'Footer Copyright'
   disabled 	: 'Disabled'

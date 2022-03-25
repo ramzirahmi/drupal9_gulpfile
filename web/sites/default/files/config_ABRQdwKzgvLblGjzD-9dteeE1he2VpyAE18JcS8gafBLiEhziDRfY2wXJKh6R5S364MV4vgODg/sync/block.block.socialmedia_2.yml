@@ -1,0 +1,25 @@
+uuid: 9ce333d2-1f3a-4439-a08e-355a76c3a1e0
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:social_media:afcd8f09-2ba0-40e2-ada6-bd6092a5e397'
+  module:
+    - block_content
+  theme:
+    - formation_drupal9
+id: socialmedia_2
+theme: formation_drupal9
+region: footer_content
+weight: 0
+provider: null
+plugin: 'block_content:afcd8f09-2ba0-40e2-ada6-bd6092a5e397'
+settings:
+  id: 'block_content:afcd8f09-2ba0-40e2-ada6-bd6092a5e397'
+  label: 'SOCIAL MEDIA'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

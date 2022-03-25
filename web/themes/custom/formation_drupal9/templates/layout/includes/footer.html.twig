@@ -1,13 +1,32 @@
-{% if page.footer or page.footer_copyright %}
+{% if page.footer_top or page.footer_content or page.footer_copyright %}
     <footer class="bg-footer">
-        <div class="container">
-            <div class="row justify-content-center">
-                {% if page.footer %}
-                    {{ page.footer }}
-                {% endif %}
-                {% if page.footer_copyright %}
-                    {{ page.footer_copyright }}
-                {% endif %}
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    {% if page.footer_top %}
+                        {{ page.footer_top }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="footer-content">
+            <div class="container">
+                <div class="row">
+                    {% if page.footer_content %}
+                        {{ page.footer_content }}
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                <div class="border-top">
+                    <div class="row">
+                        {% if page.footer_copyright %}
+                            {{ page.footer_copyright }}
+                        {% endif %}
+                    </div>
+                </div>
             </div>
         </div>
     </footer>

@@ -1,6 +1,6 @@
-uuid: 8af0d509-c110-4f33-946f-45a3368dfbec
+uuid: 3bdc470a-38e9-4ff6-814f-8ca568f75c1f
 langcode: fr
-status: false
+status: true
 dependencies:
   config:
     - system.menu.informations
@@ -8,9 +8,9 @@ dependencies:
     - system
   theme:
     - formation_drupal9
-id: informations
+id: informations_2
 theme: formation_drupal9
-region: system_branding
+region: footer_content
 weight: 0
 provider: null
 plugin: 'system_menu_block:informations'

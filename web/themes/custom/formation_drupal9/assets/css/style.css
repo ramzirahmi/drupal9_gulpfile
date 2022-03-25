@@ -11126,3 +11126,48 @@ textarea.form-control-lg {
   left: 0;
   bottom: 0;
 }
+.bg-footer .footer-top {
+  margin-top: -125px;
+}
+.bg-footer .footer-top .logo-footer {
+  background-color: #F2FAF7 !important;
+}
+.bg-footer .footer-content {
+  padding: 20px;
+}
+.bg-footer .footer-content .footer_menu {
+  position: relative;
+}
+.bg-footer .footer-content .footer_menu h3, .bg-footer .footer-content .footer_menu .h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+  padding: 10px 0;
+}
+.bg-footer .footer-content .footer_menu h3::after, .bg-footer .footer-content .footer_menu .h3::after {
+  content: "";
+  position: absolute;
+  width: 25px;
+  height: 4px;
+  left: 0;
+  top: 40px;
+  background-color: green;
+  border-radius: 1px;
+}
+.bg-footer .footer-content ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.bg-footer .footer-content ul li {
+  padding: 10px 0;
+  display: block;
+}
+.bg-footer .footer-content ul li a {
+  text-decoration: none;
+  color: #000;
+}
+.bg-footer .footer-copyright .border-top {
+  padding: 10px;
+  border-top: 1px solid #007A3E !important;
+}

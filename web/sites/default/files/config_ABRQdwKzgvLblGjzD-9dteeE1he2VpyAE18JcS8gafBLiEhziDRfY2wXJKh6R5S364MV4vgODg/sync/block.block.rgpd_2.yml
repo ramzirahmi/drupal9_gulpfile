@@ -1,22 +1,22 @@
-uuid: 8af0d509-c110-4f33-946f-45a3368dfbec
+uuid: 9152285e-5ce8-49c1-b13a-374076a15904
 langcode: fr
-status: false
+status: true
 dependencies:
   config:
-    - system.menu.informations
+    - system.menu.rgpd
   module:
     - system
   theme:
     - formation_drupal9
-id: informations
+id: rgpd_2
 theme: formation_drupal9
-region: system_branding
+region: footer_content
 weight: 0
 provider: null
-plugin: 'system_menu_block:informations'
+plugin: 'system_menu_block:rgpd'
 settings:
-  id: 'system_menu_block:informations'
-  label: Informations
+  id: 'system_menu_block:rgpd'
+  label: RGPD
   label_display: visible
   provider: system
   level: 1

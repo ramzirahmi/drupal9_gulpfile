@@ -1,0 +1,25 @@
+uuid: d07393f7-df5f-41ce-b060-6f954d81a6f1
+langcode: fr
+status: true
+dependencies:
+  content:
+    - 'block_content:logo_footer:302436bc-a4d4-47b5-8033-9c41426ea6e0'
+  module:
+    - block_content
+  theme:
+    - formation_drupal9
+id: logofooter
+theme: formation_drupal9
+region: footer_top
+weight: 0
+provider: null
+plugin: 'block_content:302436bc-a4d4-47b5-8033-9c41426ea6e0'
+settings:
+  id: 'block_content:302436bc-a4d4-47b5-8033-9c41426ea6e0'
+  label: 'Logo Footer'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

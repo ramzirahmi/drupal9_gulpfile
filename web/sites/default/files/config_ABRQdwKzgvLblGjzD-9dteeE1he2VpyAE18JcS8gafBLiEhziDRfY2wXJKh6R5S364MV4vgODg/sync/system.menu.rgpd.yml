@@ -1,0 +1,8 @@
+uuid: ce402de2-9029-459a-8bf0-7ce1257383c2
+langcode: fr
+status: true
+dependencies: {  }
+id: rgpd
+label: RGPD
+description: ''
+locked: false
