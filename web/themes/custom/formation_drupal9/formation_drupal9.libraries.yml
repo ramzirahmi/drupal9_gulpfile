@@ -1,11 +1,15 @@
 global-css:
   css:
     theme:
+      assets/css/owl.carousel.min.css: {}
+      assets/js/owl.theme.default.min.css: {}
       assets/css/style.css: {}
 
 
 global-js:
   js:
+   assets/js/owl.carousel.min.js: {}
+   assets/js/main.js: {}
 
   dependencies:
       - core/drupal

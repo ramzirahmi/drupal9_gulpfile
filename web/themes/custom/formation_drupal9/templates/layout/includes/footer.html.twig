@@ -3,8 +3,17 @@
         <div class="footer-top">
             <div class="container">
                 <div class="row">
-                    {% if page.footer_top %}
-                        {{ page.footer_top }}
+                    {% if page.footer_top_left %}
+                        <div class="col-md-3 logo-footer">
+                            {{ page.footer_top_left }}
+                        </div>
+                    {% endif %}
+                    {% if page.footer_top_right %}
+                        <div class="col-md-9 info-contact">
+                            <div class="row">
+                                {{ page.footer_top_right }}
+                            </div>
+                        </div>
                     {% endif %}
                 </div>
             </div>

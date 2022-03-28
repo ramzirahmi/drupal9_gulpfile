@@ -32,11 +32,11 @@
     'block-' ~ plugin_id|clean_class,'col-lg-3 logo-footer'
 ]
 %}
-<div{{ attributes.addClass(classes) }}>
+{#<div{{ attributes.addClass(classes) }}>#}
     {{ title_prefix }}
-    {% if label %}
-        <h2{{ title_attributes }}>{{ label }}</h2>
-    {% endif %}
+    {#{% if label %}#}
+        {#<h2{{ title_attributes }}>{{ label }}</h2>#}
+    {#{% endif %}#}
     {{ title_suffix }}
     {% block content %}
         <a href="{{ path('<front>') }}" title="{{ 'Home'|t }}" rel="home">
@@ -44,4 +44,4 @@
                  alt="{{ content.field_logo.alt }}" class="img-fluid" loading="lazy">
         </a>
     {% endblock %}
-</div>
+{#</div>#}

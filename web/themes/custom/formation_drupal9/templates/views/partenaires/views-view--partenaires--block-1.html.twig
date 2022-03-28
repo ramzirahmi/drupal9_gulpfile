@@ -37,11 +37,13 @@
     'view-display-id-' ~ display_id,
     dom_id ? 'js-view-dom-id-' ~ dom_id,'nos-partenaires'
 ] %}
-<div{{ attributes.addClass(classes) }}>
+<section{{ attributes.addClass(classes) }}>
     <div class="container">
         {{ title_prefix }}
         {% if title %}
-            {{ title }}
+            <div class="text-center text-success">
+               <h2>{{ title }}</h2>
+            </div>
         {% endif %}
         {{ title_suffix }}
         {% if header %}
@@ -62,7 +64,9 @@
 
         {% if rows %}
             <div class="row">
-                {{ rows }}
+                <div id="owl-demo">
+                    {{ rows }}
+                </div>
             </div>
         {% elseif empty %}
             <div class="view-empty">
@@ -92,4 +96,4 @@
             </div>
         {% endif %}
     </div>
-</div>
+</section>
