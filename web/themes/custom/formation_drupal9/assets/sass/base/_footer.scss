@@ -7,8 +7,9 @@
   background-repeat: no-repeat;
   background-position:center;
   width: 100%;
+  padding:20px 0;
   height: auto;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
   .footer-top {
@@ -19,7 +20,6 @@
       text-align: center;
       padding: 15px;
       border-radius: 15px;
-      z-index: 99;
     }
     .info-contact {
       background-color:#007A3E;
@@ -71,5 +71,10 @@
       padding: 10px;
       border-top: 1px solid #007A3E !important;
     }
+  }
+}
+@media (max-width: 767px) {
+  .bg-footer {
+    color: red;
   }
 }

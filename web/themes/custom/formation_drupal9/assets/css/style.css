@@ -11118,6 +11118,140 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.user-logged-in .navbar {
+  position: fixed;
+  background: lavenderblush;
+  top: 79px;
+  padding: 10px;
+  width: 100%;
+  z-index: 99;
+}
+
+.navbar {
+  position: fixed;
+  background: lavenderblush;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  z-index: 99;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    position: relative;
+    background: red;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    z-index: 99;
+  }
+}
+.actualites {
+  padding: 30px 0;
+  position: relative;
+}
+.actualites .actualite-block {
+  background-color: #eeeeee;
+  padding: 40px 0;
+}
+.actualites .actualite-block .rectangle {
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid #828282;
+  border-left: 70px solid #fff;
+  position: absolute;
+  left: 10;
+  top: 30px;
+}
+.actualites .actualite-block .title-actualites {
+  position: relative;
+}
+.actualites .actualite-block .title-actualites h2, .actualites .actualite-block .title-actualites .h2 {
+  color: green;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+.actualites .actualite-block .title-actualites h2:after, .actualites .actualite-block .title-actualites .h2:after {
+  content: "";
+  width: 80px;
+  height: 2px;
+  background: #007A3E;
+  position: absolute;
+  margin-left: 10px;
+  top: 14px;
+}
+.actualites .actualite-block .actualite-home {
+  padding: 20px;
+}
+.actualites .actualite-block .actualite-home .all-href {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  z-index: 9;
+}
+.actualites .actualite-block .actualite-home h2, .actualites .actualite-block .actualite-home .h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #0F4229;
+  line-height: 27px;
+  margin-left: 10px;
+  padding: 10px;
+}
+.actualites .actualite-block .actualite-home p {
+  font-size: 15px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 25px;
+  margin: 0 0 4px 10px;
+  justify-content: center;
+}
+.actualites .actualite-block .actualite-home a {
+  text-decoration: none;
+  color: green;
+  font-weight: 500;
+  margin-left: 10px;
+}
+.actualites .actualite-block .good-practices-btn {
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+}
+.actualites .actualite-block .good-practices-btn .btn-lien {
+  border: 1px solid green;
+  border-radius: 10px;
+  display: inline-block;
+  padding: 10px 12px;
+}
+.actualites .actualite-block .good-practices-btn a {
+  text-decoration: none;
+  color: #F05A32;
+  font-size: 18px;
+}
+
+.nos-partenaires {
+  padding: 100px 0;
+}
+.nos-partenaires .title-partenaires {
+  position: relative;
+}
+.nos-partenaires h2, .nos-partenaires .h2 {
+  font-size: 18px;
+  colore: green;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.nos-partenaires h2:after, .nos-partenaires .h2:after {
+  content: "";
+  position: absolute;
+  width: 80px;
+  height: 2px;
+  top: 10px;
+  background: green;
+  margin: 0 0 0 15px;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -11128,8 +11262,9 @@ textarea.form-control-lg {
   background-repeat: no-repeat;
   background-position: center;
   width: 100%;
+  padding: 20px 0;
   height: auto;
-  position: fixed;
+  position: relative;
   left: 0;
   bottom: 0;
 }
@@ -11142,7 +11277,6 @@ textarea.form-control-lg {
   text-align: center;
   padding: 15px;
   border-radius: 15px;
-  z-index: 99;
 }
 .bg-footer .footer-top .info-contact {
   background-color: #007A3E;
@@ -11190,4 +11324,10 @@ textarea.form-control-lg {
 .bg-footer .footer-copyright .border-top {
   padding: 10px;
   border-top: 1px solid #007A3E !important;
+}
+
+@media (max-width: 767px) {
+  .bg-footer {
+    color: red;
+  }
 }

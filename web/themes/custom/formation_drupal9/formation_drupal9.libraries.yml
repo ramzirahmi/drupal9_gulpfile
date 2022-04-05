@@ -9,6 +9,7 @@ global-css:
 global-js:
   js:
    assets/js/owl.carousel.min.js: {}
+   assets/js/bootstrap.bundle.min.js: {}
    assets/js/main.js: {}
 
   dependencies:

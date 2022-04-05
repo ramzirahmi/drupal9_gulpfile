@@ -1,0 +1,27 @@
+.user-logged-in .navbar {
+  position: fixed;
+  background: lavenderblush;
+  top: 79px;
+  padding: 10px;
+  width: 100%;
+  z-index: 99;
+}
+.navbar {
+  position: fixed;
+  background: lavenderblush;
+  top: 0;
+  padding: 10px;
+  width: 100%;
+  z-index: 99;
+}
+
+@media (max-width: 767px) {
+  .navbar {
+    position: relative;
+    background: red;
+    top: 0;
+    padding: 10px;
+    width: 100%;
+    z-index: 99;
+  }
+}

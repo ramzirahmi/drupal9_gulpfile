@@ -2,8 +2,11 @@
 
 @import "node_modules/bootstrap/scss/bootstrap";
 
-
+@import "base/variables";
 @import "base/header";
 @import "base/content";
+@import "base/actualites";
+
 @import "base/partenaire";
+
 @import "base/footer";

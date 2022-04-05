@@ -46,8 +46,7 @@
  */
 #}
 
-{{ page.header }}
-
+{% include directory ~ '/templates/layout/includes/navbar.html.twig' %}
 {% if page.status_message %}
     {{ page.status_message }}
 {% endif %}

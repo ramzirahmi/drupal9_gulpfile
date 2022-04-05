@@ -1,3 +1,22 @@
-//.nos-partenaires {
-//    padding: 100px 0;
-//}
+.nos-partenaires {
+   padding: 100px 0;
+  .title-partenaires{
+    position:relative;
+  }
+  h2 {
+    font-size: 18px;
+    colore:green;
+    text-transform: uppercase;
+    font-weight: 700;
+
+  }
+  h2:after{
+    content: "";
+    position: absolute;
+    width: 80px;
+    height: 2px;
+    top: 10px;
+    background: green;
+    margin: 0 0 0 15px;
+  }
+ }

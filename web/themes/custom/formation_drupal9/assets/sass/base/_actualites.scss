@@ -1,0 +1,90 @@
+//start style block actualites home
+.actualites {
+  padding: 30px 0;
+  position: relative;
+  .actualite-block {
+    background-color: #eeeeee;
+    padding: 40px 0;
+    .rectangle {
+      width: 0;
+      height: 0;
+      border-bottom: 80px solid #828282;
+      border-left: 70px solid #fff;
+      position: absolute;
+      left: 10;
+      top: 30px;
+    }
+    .title-actualites {
+      position: relative;
+      h2 {
+        color: green;
+        text-transform: uppercase;
+        font-size: 25px;
+      }
+      h2:after {
+        content: "";
+        width: 80px;
+        height: 2px;
+        background: #007A3E;
+        position: absolute;
+        margin-left: 10px;
+        top: 14px;
+      }
+    }
+    .actualite-home {
+      //background: #fff;
+      //border: 1px solid #eeeeee;
+      padding: 20px;
+      .all-href {
+        position: absolute;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        z-index: 9;
+      }
+      h2 {
+        font-size: 16px;
+        font-weight: 600;
+        color: #0F4229;
+        line-height: 27px;
+        margin-left: 10px;
+        padding: 10px;
+      }
+      p {
+        font-size: 15px;
+        font-weight: 400;
+        color: #000000;
+        line-height: 25px;
+        margin: 0 0 4px 10px;
+        justify-content: center;
+      }
+      a {
+        text-decoration: none;
+        color: green;
+        font-weight: 500;
+        margin-left: 10px;
+      }
+    }
+
+    .good-practices-btn {
+      text-align: center;
+      padding: 20px 0;
+      margin: auto;
+      .btn-lien {
+        border: 1px solid green;
+        border-radius: 10px;
+        display: inline-block;
+        padding: 10px 12px;
+      }
+      a {
+        text-decoration: none;
+        color: $main-color;
+        font-size: $main-size
+      }
+    }
+
+  }
+}
+
+//end block actualites home
